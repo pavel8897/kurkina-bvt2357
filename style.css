@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.service {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.service h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gallery-item {
+    width: 90%;
+    padding: 88px;
+}
+
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.review {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+#prices table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#prices th, #prices td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#prices th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin-left: 0;
+    }
+}
